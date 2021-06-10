@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "tablesexamples",
+  "version": "${version}",
+  "name": "FabricLootTablesExample",
+  "description": "",
+  "authors": [
+    "FlamingCherry"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": [
+      "flamingcherry.fabricloottablesexample.FabricLootTablesExample"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x"
+  }
+}
